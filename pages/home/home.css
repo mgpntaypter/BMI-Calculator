@@ -1,14 +1,32 @@
-h2{
-  color:#843838;
-  font-size: 38px;
+ion-content {
+  background: linear-gradient(to bottom, #d4d3dd, #efefbb);
+}
+
+h2 {
+  color: #843838;
+  font-size: 35px;
   font-family: fantasy;
   text-align: center;
+  text-shadow: 2px 2px #a38c8c;
+}
+
+p {
+  text-align: justify;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+}
+
+a {
+  color: #843838;
 }
 
 img {
   display: block;
   width: 400px;
-  height: auto;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,7 +66,7 @@ ion-item.message {
 
 h2.message {
   font-size: 20px;
-  text-shadow: 0px;
+  text-shadow: 1px 1px #a38c8c;
 }
 
 code {
