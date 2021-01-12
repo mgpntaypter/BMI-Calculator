@@ -1,3 +1,18 @@
+h2{
+  color:#843838;
+  font-size: 38px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ion-item {
   background-color: rgba(221, 248, 129, 0.5);
 }
@@ -8,6 +23,13 @@ ion-label {
   font-weight: bold;
 }
 
+ion-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
 ion-input {
   color: #843838;
   font-weight: bold;
@@ -15,6 +37,9 @@ ion-input {
 
 button {
   background-color: #843838;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ion-item.message {
