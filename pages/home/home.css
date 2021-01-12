@@ -16,3 +16,17 @@ ion-input {
 button {
   background-color: #843838;
 }
+
+ion-item.message {
+  background-color: transparent;
+}
+
+h2.message {
+  font-size: 20px;
+  text-shadow: 0px;
+}
+
+code {
+  color: rgba(221, 248, 129, 1);
+  font-style: italic;
+}
